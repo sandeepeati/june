@@ -1,0 +1,38 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body{
+	height: 100vh;
+	width: 100vw;
+	background-color:#EF1FA1; 
+	overflow-x: hidden;
+}
+
+.header{
+	color: white;
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+}
+.header h1{
+	font-size: 150px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-100%);
+}
+
+.header h3{
+	font-size: 2.5vmin;
+}
+.header #ai{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 40px;
+}
